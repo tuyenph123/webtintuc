@@ -1,0 +1,129 @@
+.login {
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background-color: var(--background-color);
+
+}
+
+.login__container {
+    position: absolute;
+    top: 7%;
+    left: 32%;
+    width: 40%;
+    height: 90%;
+    background-color: var(--white-color);
+}
+
+.login__container h2 {
+    font: 28px Roboto, sans-serif;
+    color: var(--black-color);
+    font-weight: bold;
+    margin: 20px 0 30px 30px;
+}
+
+.login__input {
+    margin: 20px 0 30px 30px;
+}
+
+.login__input label {
+    margin: 20px 0 10px 0;
+}
+
+.login__input input {
+    padding: 6px 12px 6px 18px;
+    width: 510px;
+    height: 48px;
+}
+
+.login__list {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 36px;
+}
+
+.login__forgot {
+    font: 16p Arimo, sans-serif;
+    color: var(--p-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-15 {
+    background: var(--primary-color);
+    border: none;
+    z-index: 1;
+
+}
+
+.btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: red;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    transition: all 0.3s ease;
+}
+
+.btn-15:hover {
+    color: #fff;
+}
+
+.btn-15:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+.btn-15:active {
+    top: 2px;
+}
+
+.custom-btn {
+    width: 510px;
+    height: 48px;
+    margin: 30px;
+    color: var(--white-color);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: var(--primary-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.login__container h3 {
+    text-align: center;
+    font: 16px Arimo, sans-serif;
+    color: var(--black-color);
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+.login__container p {
+    text-align: center;
+    color: var(--p-color);
+    font: 16px Arimo, sans-serif;
+    margin-top: 15px;
+}
+.login__container p a{
+    color: var(--black-color);
+}
+
+.login__container p a:hover{
+    color: var(--primary-color);
+}

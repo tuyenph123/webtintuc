@@ -1,0 +1,134 @@
+.category1__title {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    box-shadow: 2px 2px rgba(179, 178, 178, 0.5);
+}
+
+.category1__title h1 {
+    color: #ffcc00;
+    font: 45px Roboto, sans-serif;
+    font-weight: 700;
+}
+
+.category1__title span a {
+    color: var(--color-black);
+    font: 14px Arimo, sans-serif;
+    text-decoration: none;
+    margin: auto;
+}
+
+.category1__view {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.category1__tong {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.category1__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 800px;
+    height: auto;
+}
+
+.category__item a {
+    text-decoration: none;
+}
+
+.category__item img {
+    width: 100%;
+    max-width: 370px;
+    height: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.category__item h2 {
+    font: 28px Roboto, sans-serif;
+    color: var(--black-color);
+    font-weight: bold;
+    width: 353px;
+}
+.category__item h2:hover {
+     color: var(--primary-color);
+}
+.category__item h6 {
+    font: 12px Arimo, sans-serif;
+    color: var(--black-color);
+    margin: 10px 10px 10px 0;
+    padding: 0 0 0 10px;
+    color: var(--p-color);
+}
+
+.category__item p {
+    font: 16px Arimo, sans-serif;
+    color: var(--black-color);
+    margin: 0 0 15px;
+    color: var(--text-color);
+    width: 370px;
+}
+
+.chuyen__muc h1,
+.tieu__diem h1 {
+    color: var(--color-black);
+    font: 20px Roboto, sans-serif;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(179, 178, 178, 0.5);
+}
+
+.chuyen__muc ul {
+   margin-left: -32px;
+   margin-top: 35px;
+}
+.chuyen__muc ul li {
+    list-style: none;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(179, 178, 178, 0.5);
+}
+
+.chuyen__muc ul li a {
+    color: var(--color-black);
+    font: 15px Arimo, sans-serif;
+    text-decoration: none;
+}
+
+.tieu__diem-tong {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.tieu__diem-tong img {
+    width: 100%;
+    max-width: 132px;
+    height: 100%;
+    max-height: 82px;
+}
+
+.tieu__diem-tong h3 {
+    color: var(--color-black);
+    font: 16px Roboto, sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.tieu__diem-tong p {
+    color: var(--p-color);
+    font: 11px Arimo, sans-serif;
+}
